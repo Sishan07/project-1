@@ -1,0 +1,113 @@
+@media only screen and (min-width: 600px) {
+body{
+    background-color: black !important;
+    /* background-image: url("image/earth.jpeg"); */
+}
+}
+.center{
+    margin:0 auto;
+    
+}
+.center ul li a{
+    margin: 10px;
+}
+.center a{
+    color:white;
+    
+}
+.nav-item a{
+    color: white;
+    word-spacing: 10px;
+    
+}
+.image{
+    background-image: url("image/earth.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1000px;
+}
+.User-pic{
+    display: flex;
+    margin-right: 15px;
+}
+.User-pic .photo img{
+    border-radius: 60%;
+    width: 30px;
+    height: 50px;
+   
+}
+.User-pic .profile{
+    color: white;
+    display: flex;
+    display: grid;
+
+    
+}
+.User-pic .profile p{
+    font-size: 11px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.User-pic .profile h4{
+    font-size: 13px;
+    padding-right: 10px;
+    
+}
+.content{
+    text-align: center;
+    margin-top: 130px;
+    color: white; 
+    border-radius: 15px;
+  
+}
+.button{
+    background-color:blueviolet;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 2px 4px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container-fluid a{
+    color: white;
+}
+.Explore{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* z-index: 9999; */
+    border-radius: 15px;
+    grid-gap: 15px;
+
+}
+.places p{
+    padding-left: 25px;
+    font-size: 15px;
+   
+}
+
+.places h3{
+    font-size: 25px;
+    padding-left: 25px;
+}
+.places button{
+    border: transparent;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+.search{
+    align-items: center;
+    display: flex;
+}
+.logo{
+    position: absolute;
+    margin-bottom: 15px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    
+}

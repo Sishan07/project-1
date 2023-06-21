@@ -1,0 +1,442 @@
+/*
+    Theme . Name : Sishan
+    Description : Travel
+    Author : Sishan
+ */
+ @media only screen and (min-width: 600px) {
+    body{
+        background-color: black !important;
+        /* background-image: url("image/earth.jpeg"); */
+    }
+    }
+    .center{
+        margin:0 auto;
+        
+    }
+    .center ul li a{
+        margin: 10px;
+    }
+    .center a{
+        color:white;
+        
+    }
+    .nav-item a{
+        color: white;
+        word-spacing: 10px;
+        
+    }
+    .image{
+        background-image: url("image/earth.jpeg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 1000px;
+    }
+    .User-pic{
+        display: flex;
+        margin-right: 15px;
+    }
+    .User-pic .photo img{
+        border-radius: 60%;
+        width: 30px;
+        height: 50px;
+       
+    }
+    .User-pic .profile{
+        color: white;
+        display: flex;
+        display: grid;
+    
+        
+    }
+    .User-pic .profile p{
+        font-size: 11px;
+        padding-right: 10px;
+        margin: 0;
+    }
+    
+    .User-pic .profile h4{
+        font-size: 13px;
+        padding-right: 10px;
+        
+    }
+    .content{
+        text-align: center;
+        margin-top: 130px;
+        color: white; 
+        border-radius: 15px;
+      
+    }
+    .button{
+        background-color:blueviolet;
+        border: none;
+        color: white;
+        font-size: 16px;
+        margin: 2px 4px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+    .Explore{
+        margin-top: 250px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        /* z-index: 9999; */
+        border-radius: 15px;
+        grid-gap: 15px;
+    
+    }
+    .places p{
+        padding-left: 25px;
+        font-size: 15px;
+        color: black;
+       
+    }
+    
+    .places h3{
+        font-size: 25px;
+        padding-left: 25px;
+    }
+   
+    .places button{
+        border: transparent;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 5px;
+    }
+    .search{
+        align-items: center;
+        display: flex;
+    }
+    .logo{
+        position: absolute;
+        margin-bottom: 15px;
+        color: orange;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .image .tour{
+        margin-top: 20px;
+      
+    }
+    .slides{
+        border-radius: 8px;
+        height: 300px;
+        
+    }
+    .card-body{
+        background-color: black;
+    }
+    .card-body h5{
+        color: white;
+    }
+    .card-body p{
+        color: white;
+    }
+    .footer {
+        text-align: center;
+        padding: 80px 0 0;
+        background-color: #000;
+    }
+    
+    .footer .footer-block {
+        text-align: left;
+    }
+    
+    .footer .footer-block li a {
+        color: #ccc;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        display: block;
+    }
+    
+    .footer .footer-block li a::before {
+        content: "\f068";
+        font-family: fontawesome;
+        margin-right: 10px;
+        font-size: 7px;
+        vertical-align: middle;
+        color: #fff;
+    }
+    
+    .footer .footer-block li a:hover {
+        margin-left: 5px;
+        text-decoration: none;
+    }
+    
+    .footer-title {
+        color: #d9932f;
+        text-transform: capitalize;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    hr.footer_border {
+        color: #d9932f;
+        width: 20%;
+        text-align: left;
+        border-color: #d9932f;
+        border-width: 2px;
+        margin: 0 0 20px 0;
+    }
+    
+    .footer_icon {
+        padding-top: 5px;
+    }
+    
+    .footer_icon i {
+        color: #ccc;
+        margin-right: 10px;
+    }
+    
+    .contact_footer, .contact_footer a {
+        color: #ccc;
+    }
+    
+    .footer_icon .fa-envelope {
+        background: transparent;
+    }
+    
+    .footer_icon div {
+        padding: 5px 0 0;
+    }
+    
+    .footer_botom_outer {
+        margin-top: 50px;
+    }
+    
+    .footerbottom_link {
+        border-top: 1px solid #d9932f;
+        border-bottom: 1px solid #d9932f;
+        padding: 20px 0 15px 0;
+    }
+    
+    .footerbottom_link, .copyright {
+        text-align: center;
+        color: #ccc;
+    }
+    
+    footer .card .ul.list-inline {
+        margin: 0;
+    }
+    
+    .copyright p {
+        color: #ccc;
+        padding: 25px 0;
+        font-size: 1em;
+        line-height: 15px;
+        height: 50px;
+    }
+    
+    .copyright i {
+        color: #d9932f;
+        margin-right: 5px;
+    }
+    
+    @media only screen and (max-width: 991px) {
+        .footer {
+            padding: 30px 0 0;
+        }
+    }
+    
+    blockquote {
+        text-align: center !important;
+    }
+  .nav{
+    display: flex;
+    text-decoration: none;
+    
+  }
+  .nav>li{
+    list-style: none;
+    margin: 0px 30px;
+    position: relative;
+    
+  }
+  .sub-menu{
+    position: absolute;
+    top: 100%;
+    width: 120px;
+    opacity: 0;
+    text-decoration: none;
+    transition: 2s;
+    background: red;
+
+  }
+  .nav>li:hover .sub-menu{
+    opacity: 1;
+  }
+  .nav li>a{
+    text-decoration: none;
+  }
+  .about_section {
+    margin-top: 50px;
+   
+   
+  }
+  .about_section h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    padding: 30px;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: white;
+  }
+  .wp-block-gallery{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    
+  }
+  .wp-block-gallery img{
+    width: 90%;
+    padding: 10px;
+  } 
+  .container-fluid img{
+    
+    width: 50px;
+    height: 50px;
+  }
+
+  .container{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+.container form h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.container form input::placeholder{
+    color: #ddd;
+}
+
+.container form #lastName,
+.container form #mobile{
+    margin-left: 20px;
+}
+
+.container form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.container form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+h1{
+    color: white;
+}
+
+.wp-pagenavi{
+    color: white;
+}
+.comment-form{
+    padding: 20px;
+}
+
+
+.comment-form-comment{
+    display: block;
+}
+
+.pagenot{
+    font-size: 80px;
+    color: white;
+    padding: 40px 0px;
+    text-align: center;
+}
+p.lead{
+    font-size: 30px;
+    text-align: center;
+   color: white;
+}
+.icon h3{
+    padding-left: 55px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon img{
+    border-radius: 60%;
+    width: 30px;
+    height: 50px;
+    margin-top: 5px
+  
+}
